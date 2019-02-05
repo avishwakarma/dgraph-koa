@@ -14,6 +14,7 @@
   "author": "Ashok Vishwakarma <akvlko@gmail.com>",
   "license": "BSD-2-Clause",
   "scripts": {
+    "prepare": "babel src --optional runtime --out-dir lib/",
     "start": "babel-node example"
   },
   "dependencies": {

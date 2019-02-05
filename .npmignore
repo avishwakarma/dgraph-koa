@@ -2,4 +2,5 @@
 .DS_Store
 npm-debug.log
 example
+src
 node_modules
