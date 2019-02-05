@@ -1,4 +1,5 @@
-# DgraphKoa: Build a GraphQL application using Dgraph and Koa
+# DgraphKoa
+Build a GraphQL application using Dgraph and Koa
 
 
 ## Introduction
@@ -9,7 +10,7 @@ schema for predicates (properties) within the graph; there is no concept of
 complex types or groups of properties. Because of this it is straight forward to
 store any GraphQL schema in Dgraph provided a few restrictions are met.
 
-Given a GraphQL schema, DgraphKoA can do four things:
+Given a GraphQL schema, DgraphKoa can do four things:
 
 1. Generate a GraphQL-JS schema that maps GraphQL queries to Dgraph queries
 2. Transform Dgraph responses into GraphQL responses (including support for the
@@ -70,7 +71,7 @@ type Person {
 ```
 
 ### config
-DgraphKoa config passwed in `Server constructor`
+DgraphKoa config passed in `Server constructor`
 
 ```
 debug: boolean // default true
@@ -105,4 +106,7 @@ server.listen(
   // callback
 )
 ```
+
+### Special Thanks
+[David Peek](https://github.com/dpeek) for his [dgaphql](https://github.com/dpeek/dgraphql) github repo.
 
