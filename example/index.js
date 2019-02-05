@@ -1,4 +1,4 @@
-import { Server } from '../src/server';
+import { Server } from '../lib/';
 
 const schema = `
 type Person {
