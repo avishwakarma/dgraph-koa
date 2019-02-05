@@ -23,7 +23,7 @@ const _defaultConfig = {
 }
 const updateTypeName = 'SchemaUpdate';
 
-export class Server {
+class Server {
   _info;
   _debug;
   _config;
@@ -34,6 +34,11 @@ export class Server {
   relay;
 
   constructor (config) {
+
+    if(!config) {
+      config = _defaultConfig;
+    }
+
     this._config = {
       ..._defaultConfig,
       ...config,
@@ -195,3 +200,5 @@ export class Server {
     return { server: this, language }
   }
 }
+
+export default Server;

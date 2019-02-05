@@ -1,6 +1,6 @@
 {
   "name": "dgraph-koa",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Generate graphql schema for dgraph.",
   "main": "lib/index.js",
   "homepage": "https://github.com/ashokvishwakarma/dgraph-koa",
