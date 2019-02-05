@@ -1,5 +1,5 @@
 {
-  "name": "dgraphql",
+  "name": "dgraph-koa",
   "version": "0.0.1",
   "description": "Generate graphql schema for dgraph.",
   "main": "lib/index.js",
