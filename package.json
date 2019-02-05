@@ -1,0 +1,49 @@
+{
+  "name": "dgraphql",
+  "version": "0.7.1",
+  "description": "Generate graphql schema for dgraph.",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/ashokvishwakarma/dgraph-koa",
+  "bugs": {
+    "url": "https://github.com/ashokvishwakarma/dgraph-koa/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashokvishwakarma/dgraph-koa.git"
+  },
+  "author": "Ashok Vishwakarma <akvlko@gmail.com>",
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "start": "babel-node example"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "dgraph-js": "^1.0.0",
+    "graphql": "^0.12.0",
+    "graphql-tools": "^2.14.0",
+    "grpc": "^1.18.0",
+    "invariant": "^2.2.2",
+    "koa": "^2.7.0",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0",
+    "pluralize": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "codecov": "^3.0.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  }
+}

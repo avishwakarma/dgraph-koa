@@ -1,0 +1,6 @@
+dgraph
+node_modules
+coverage
+data
+package-lock.json
+**/.DS_Store
